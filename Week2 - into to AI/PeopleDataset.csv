@@ -1,0 +1,31 @@
+FirstName,LastName,Age,Gender,Height_cm,City,FavouriteTea,HasDog,WeeklySteps
+Oscar,Wilson,37,Male,176.4,Sheffield,Camomile,FALSE,24651
+Lily,Williams,28,Female,167.3,Manchester,Green Tea,FALSE,47488
+Leo,Taylor,53,Male,176.9,Bristol,Green Tea,FALSE,51486
+George,Smith,38,Male,178.6,Cardiff,English Breakfast,TRUE,52857
+Freya,Robinson,38,Female,160.7,Sheffield,Peppermint,FALSE,62892
+Harry,Williams,21,Male,181.1,Birmingham,Fruit Tea,TRUE,42930
+Florence,Wilson,34,Female,166.4,Manchester,Peppermint,TRUE,74121
+Noah,Smith,21,Male,173.3,Liverpool,Fruit Tea,FALSE,27582
+Ava,Wright,65,Female,160.2,Cardiff,Earl Grey,TRUE,57209
+Lily,Jones,25,Female,162.9,Manchester,Earl Grey,FALSE,28562
+Jack,Wilson,30,Male,172.9,Birmingham,Peppermint,FALSE,69152
+Isla,Davies,22,Female,164.8,Manchester,Peppermint,FALSE,23122
+Alfie,Smith,62,Male,176.6,Edinburgh,Earl Grey,TRUE,70605
+Olivia,Brown,51,Female,161.8,London,Earl Grey,FALSE,56166
+Isla,Robinson,33,Female,161.7,Manchester,Peppermint,TRUE,48398
+Noah,Davies,31,Male,183.1,Birmingham,Fruit Tea,TRUE,39281
+George,Johnson,29,Male,176.3,Sheffield,Green Tea,TRUE,60783
+Amelia,Wright,55,Female,162.2,Bristol,Earl Grey,FALSE,74261
+Willow,Jones,27,Female,164.1,Bristol,Camomile,FALSE,26233
+Arthur,Wright,49,Male,185.2,Sheffield,English Breakfast,TRUE,68652
+Mia,Davies,41,Female,168,Cardiff,Peppermint,TRUE,51090
+Alfie,Taylor,50,Male,169.8,Manchester,Green Tea,TRUE,75355
+Jack,Jones,61,Male,178.9,Edinburgh,English Breakfast,FALSE,67142
+Harry,Wilson,63,Male,170.8,Glasgow,Fruit Tea,FALSE,77598
+Ivy,Johnson,56,Female,165.2,Glasgow,Earl Grey,TRUE,52026
+George,Jones,45,Male,186,Liverpool,English Breakfast,TRUE,24844
+Amelia,Williams,48,Female,158.4,Glasgow,Green Tea,FALSE,40463
+Leo,Williams,44,Male,177.3,London,Camomile,TRUE,63243
+Florence,Smith,23,Female,170.1,Glasgow,Camomile,FALSE,34871
+Alfie,Brown,42,Male,171.2,Cardiff,Earl Grey,FALSE,58451
