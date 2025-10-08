@@ -72,3 +72,57 @@ ML techique where <b>predictions from multiple models are combined to produce a 
  - random forest builds models in parallel, gradient boosting builds them sequentially
  ![alt text](image-9.png)
  ![alt text](image-10.png)
+
+### Gradient vs forest
+#### Gradient
+ - need <b>highest possible accueacy</b>
+ - spend time <b>tuning yperparameters</b>
+ - <b>computational resorces</b> for a potentially longer time
+
+#### Forest
+ - <b>strong, reliable baseling model quickly</b>
+ - <b>easy to impliment and tune
+ - concerned about overfitting</b> and need a stronger model
+ - take advantage of <b>parallel processing</b> to speed p training 
+
+### eXtream Gradient Boosting
+<b>XGBoost is widley considered one of the most ppowerful and effective predictive algorithms avalible</b>
+
+### Support Vector Machines
+ - <b>finds an optimll hyperplane to separate data points into different classes
+ - </b>effectiveness depends heavily on problem
+ - more modden algorithms provide better performance and training times
+ - still important anre now a bit obsolete
+
+### Stacked Generalisation
+ - EML that combines predictions from multiple models to generate a new often more powerful final prediction.
+ - uses a "meta-model" whosejob is to learn the best way to combine the outputs of several "base Models".
+ - extreamly effeective
+ - prodcing some of most accurate and powerful predictive models avalible but complex to impliment and slow to train.<br>
+ ![alt text](image-11.png)![alt text](image-12.png)
+
+### Model parametes
+<b> these are what the models learn</b>
+ - these are <b>values that the model learns on its own</b>
+ - dont see them manually
+
+#### Hyperparameters
+ - very important to have and what you pick
+ - they are the config settings set before process begins
+ - control how model learns
+ they are not learned from data they are external to it 
+ - the choice of them has a significant impact on model performance incorrectly set could lead to over and under fitting
+
+![alt text](image-13.png)
+#### hyperparameter tuning
+ - process of systematically <b>searching for the combination of hyperparameter values that results in the best performance
+
+![alt text](image-14.png)
+
+#### hyperparameters w/ Combinatorics
+ - <b>hyper parameter tuning is a search problem</b>
+ - you have a <b>discrete set</b> if hyperparameters and eachhas a range of possible values
+ - <b>trying to find the single optimal combination</b> ou of vast final set of possibilities that maximises a specific <b>objective function</b> (fitness function)
+
+ ![alt text](image-15.png)
+ ![alt text](image-16.png)
