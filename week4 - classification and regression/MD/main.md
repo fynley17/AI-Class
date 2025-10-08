@@ -27,10 +27,13 @@ like linier regression but classification
  - the function squashes the linear output to a value which is interpreted as a probability
 
 ![alt text](image-2.png)
+![alt text](image-18.png)
 
 ### Feature Scaling
-
-
+ - preprocessing step used to ensure that<b> all numerical features contribute equally to a models learning process
+ - transforms the range or distribute of numertical features so that one variable doesnt dominate</b> 
+There are two main methods
+![alt text](image-17.png)
 
 ### Imputation
 
