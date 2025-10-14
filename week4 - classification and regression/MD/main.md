@@ -6,7 +6,7 @@
  - Classification predicts Discrete, categotcal labels
     - yes/no spam/not spam
 
-### Linier regression
+## Linier regression
  - statistical method used to model relationship between variables by fitting a straight line to the observed data
  - primary goal is to predict a continuous dependant variable Y based on independent variable X
 
@@ -15,7 +15,7 @@
  - Line of best fit is calculated using the method of least squares
 
 
-### Logistic Regression
+## Logistic Regression
 like linier regression but classification
  - used for <b>binary classification</b>
  - classification algorithm that predicts a probability which is mapped to discrete class.
@@ -29,17 +29,56 @@ like linier regression but classification
 ![alt text](image-2.png)
 ![alt text](image-18.png)
 
-### Feature Scaling
+## Feature Scaling
  - preprocessing step used to ensure that<b> all numerical features contribute equally to a models learning process
  - transforms the range or distribute of numertical features so that one variable doesnt dominate</b> 
 There are two main methods
 ![alt text](image-17.png)
 
-### Imputation
+## Imputation
 
 <b>Replaces missing data and values with substituted estimates</b>
 
 ![alt text](image-3.png)
+
+#### Statistical Imputation
+(Mean/Median/Mode)
+
+<b>Benefits</b>
+ - Simple and fast: Easy to implement and computationally efficient.
+ - No risk of overfitting: Does not use relationships between features, so less risk of introducing bias from the model.
+ - Works well for low missingness: Effective when only a small fraction of data is missing.
+
+<b>Drawbacks</b>
+ - Ignores feature relationships: Does not use information from other columns, so can reduce data variability and distort distributions.
+ - Can bias results: Especially if data is not missing completely at random.
+ - Not suitable for complex patterns: Fails if missingness depends on other features
+
+### Model-based
+(Imputation using a specific predictive model, e.g., KNN, Random Forest, or regression for missing values in a column)
+
+<b>Benefits</b>
+ - Leverages relationships: Uses a machine learning model to predict missing values, potentially increasing accuracy.
+ - Customizable: You can choose the model best suited for your data (e.g., KNN, Random Forest, etc.).
+ - Can handle non-linearities: Especially if using tree-based models.
+
+<b>Drawbacks</b>
+- Requires model selection/tuning: You must choose and tune the model for best results.
+ - Computational cost: Training a model for each feature with missing values can be slow.
+ - Risk of bias: If the model is not appropriate, it can introduce bias or overfit.
+
+### Iterative Imputation
+(e.g., IterativeImputer in scikit-learn)
+
+<b>Benefits</b>
+ - Uses all features: Each feature with missing values is modeled as a function of other features, improving accuracy if features are correlated.
+ - Handles multiple columns: Can impute several columns with missing values at once.
+ - Flexible: Can use different estimators (linear regression, decision trees, etc.) for the iterative process.
+
+<b>Drawbacks</b>
+ - Computationally intensive: Much slower than simple imputation, especially with large datasets or many features.
+ - Complexity: More difficult to implement and interpret.
+ - Potential for overfitting: If not careful, especially with small datasets or too many iterations.
 
 ### Ensemble Methods
 
