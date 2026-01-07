@@ -1,1 +1,4 @@
-/dataportfolio/trash/best_model.pth
+/data
+/test
+/train
+.pth
